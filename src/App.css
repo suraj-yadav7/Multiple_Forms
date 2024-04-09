@@ -1,0 +1,226 @@
+/* Reset default margin and padding */
+
+
+/* Main container styles */
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #c2d9f0;
+  font-family: Arial, sans-serif;
+  flex-direction: column;
+}
+/* Select options */
+.optionContainer {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Select heading styles */
+  .optionContainer h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Select dropdown */
+  .optionContainer select {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    background-color: #ffffff;
+  }
+  
+  /* Option styles within the select dropdown */
+  .optionContainer select option {
+    font-size: 16px;
+  }
+  
+  /* select focused */
+  .optionContainer select:focus {
+    outline: none;
+    border-color: #ced4da;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+
+  /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/* Form container styles */
+/* Styling for form field container */
+
+.entireFormContainer{
+    border: 1px solid black ;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #ffff;
+}
+.introHeading{
+    padding-bottom: 26px;
+    text-align: center;
+}
+.introHeading h2{
+    color: #f2413b;
+}
+
+.firstForm {
+    margin-bottom: 20px;
+  }
+  
+  /* Label styles */
+  .firstForm label {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  .radioLabel{
+    padding: 26px;
+    font-weight: 100;
+  }
+  
+  /* Input styles */
+  .firstForm input[type='text'] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+  }
+  
+  /* Radio button layout */
+  .firstForm input[type='radio'] {
+    display: inline-block;
+    padding:0px;
+  }
+  
+
+
+  /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+  /* Second Form Styling */
+  .secondForm {
+    margin-bottom: 20px;
+  }
+  
+  /* Label styles */
+  .secondForm label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  .secondRadioLabel{
+    padding: 0 16px;
+    font-weight: 100;
+  }
+  .secondLabelName{
+    padding: 10px 0;;
+  }
+  
+  /* Input styles */
+  .secondForm input[type='text']{
+    padding: 14px;
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+  }
+  
+  .secondForm label input[type='radio'] {
+    vertical-align: middle;
+  }
+  
+  /* Styling for radio button labels */
+  .secondForm label span {
+    vertical-align: middle;
+  }
+  
+  /* Submit button */
+  .secondForm .btnSubmit {
+    padding: 10px 16px;
+    background-color: #f2413b;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .secondForm .btnSubmit:hover {
+    background-color: #f57356;
+  }
+  
+
+  /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+  /* Progress bar container styles */
+.progressContainer {
+    margin: 20px 0;
+
+  }
+  
+  /* Progress bar styles */
+  .progressbar {
+    width: 400px;
+    height: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    overflow: hidden; 
+  }
+  
+  /* Progress bar value */
+  .progressbar::-webkit-progress-value {
+    background-color: #f2413b; 
+  }
+  
+  /* Progress text */
+  .progressText {
+    margin-left: 10px;
+    font-size: 16px;
+  }
+  
+  /* Progress percentage */
+  .progressPercentage {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+  /* Styling for the container of Previewed data */
+.fromPreview {
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 1rem;
+  }
+  .headingPreview h3{
+    display: none;
+  }
+  .fromPreview h3{
+    padding-bottom: 8px ;
+    text-align: center;
+  }
+  
+  /* Styling for the unordered list */
+  .fromPreview ul {
+    list-style-type: none; 
+    padding: 0; 
+  }
+  
+  /* Styling for each list item */
+  .fromPreview li {
+    margin-bottom: 10px; 
+    padding: 10px; 
+    background-color: #f8f9fa;
+    border-radius: 4px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+  /* Styling for the content within each list item */
+  .fromPreview li span {
+    font-weight: bold; 
+    margin-right: 5px; 
+  }
+  
